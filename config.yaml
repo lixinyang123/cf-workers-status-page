@@ -62,7 +62,6 @@ monitors:
     url: 'https://mixapi.conchbrain.club/'
     method: GET
     expectStatus: 200
-    followRedirect: true
 
   - id: mixproxy2
     name: proxy2.conchbrain.club
