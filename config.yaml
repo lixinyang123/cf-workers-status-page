@@ -20,46 +20,54 @@ monitors:
     url: 'https://www.lllxy.net/'
     method: GET
     expectStatus: 200
+    followRedirect: true
 
   - id: nextcloud
     name: cloud.lllxy.net
     url: 'https://cloud.lllxy.net/'
     method: GET
     expectStatus: 200
+    followRedirect: true
     
   - id: conchbrain
     name: www.conchbrain.club
     url: 'https://www.conchbrain.club/'
     method: GET
     expectStatus: 200
+    followRedirect: true
 
   - id: cloudshell
     name: cloudshell.conchbrain.club
     url: 'https://cloudshell.conchbrain.club/'
     method: GET
     expectStatus: 200
+    followRedirect: true
 
   - id: music
     name: music.conchbrain.club
     url: 'https://music.conchbrain.club/'
     method: GET
     expectStatus: 200
+    followRedirect: true
 
   - id: mixstore
     name: mixstore.conchbrain.club
     url: 'https://mixstore.conchbrain.club/'
     method: GET
     expectStatus: 200
+    followRedirect: true
 
   - id: mixapi
     name: mixapi.conchbrain.club
     url: 'https://mixapi.conchbrain.club/'
     method: GET
     expectStatus: 200
+    followRedirect: true
 
   - id: mixproxy2
     name: proxy2.conchbrain.club
     url: 'https://proxy2.conchbrain.club/'
     method: GET
     expectStatus: 200
+    followRedirect: true
 
