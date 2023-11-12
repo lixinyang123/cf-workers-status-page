@@ -37,3 +37,9 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+  - id: lllxy
+    name: My Blog
+    url: 'https://www.lllxy.net/'
+    method: GET
+    expectStatus: 200
