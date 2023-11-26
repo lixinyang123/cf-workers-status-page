@@ -37,11 +37,12 @@ monitors:
     followRedirect: true
 
   - id: cloudshell
-    name: cloudshell.conchbrain.club
+    name: www.conchbrain.club/#cloudshell
     url: 'https://cloudshell.conchbrain.club/'
     method: GET
     expectStatus: 200
     followRedirect: true
+    linkable: false
 
   - id: music
     name: music.conchbrain.club
@@ -58,7 +59,7 @@ monitors:
     followRedirect: true
 
   - id: mixapi
-    name: mixapi.conchbrain.club
+    name: www.conchbrain.club/#mixstore
     url: 'https://mixapi.conchbrain.club/'
     method: GET
     expectStatus: 200
