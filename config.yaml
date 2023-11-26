@@ -21,6 +21,7 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: true
+    linkable: false
 
   - id: nextcloud
     name: cloud.lllxy.net
@@ -28,6 +29,7 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: true
+    linkable: false
     
   - id: conchbrain
     name: www.conchbrain.club
@@ -35,6 +37,7 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: true
+    linkable: false
 
   - id: cloudshell
     name: www.conchbrain.club/#cloudshell
@@ -50,6 +53,7 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: true
+    linkable: false
 
   - id: mixstore
     name: mixstore.conchbrain.club
@@ -57,6 +61,7 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: true
+    linkable: false
 
   - id: mixapi
     name: www.conchbrain.club/#mixstore
@@ -64,6 +69,7 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: true
+    linkable: false
 
   - id: mixproxy2
     name: proxy2.conchbrain.club
@@ -71,4 +77,5 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: true
+    linkable: false
 
