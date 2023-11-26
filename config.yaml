@@ -32,7 +32,7 @@ monitors:
     linkable: false
     
   - id: conchbrain
-    name: www.conchbrain.club
+    name: conchbrain
     url: 'https://www.conchbrain.club/'
     method: GET
     expectStatus: 200
@@ -40,7 +40,7 @@ monitors:
     linkable: false
 
   - id: cloudshell
-    name: www.conchbrain.club/#cloudshell
+    name: cloudshell
     url: 'https://cloudshell.conchbrain.club/'
     method: GET
     expectStatus: 200
@@ -54,9 +54,33 @@ monitors:
     expectStatus: 200
     followRedirect: true
     linkable: false
+  
+  - id: kvstorage
+    name: storage.conchbrain.club
+    url: 'https://storage.conchbrain.club/'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: false
+
+  - id: cors
+    name: cors.conchbrain.club
+    url: 'https://cors.conchbrain.club/'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: false
+
+  - id: proxy
+    name: proxy.conchbrain.club
+    url: 'https://proxy.conchbrain.club/'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    linkable: false
 
   - id: mixstore
-    name: mixstore.conchbrain.club
+    name: mixstore
     url: 'https://mixstore.conchbrain.club/'
     method: GET
     expectStatus: 200
@@ -64,15 +88,15 @@ monitors:
     linkable: false
 
   - id: mixapi
-    name: www.conchbrain.club/#mixstore
+    name: mixapi
     url: 'https://mixapi.conchbrain.club/'
     method: GET
     expectStatus: 200
     followRedirect: true
     linkable: false
-
-  - id: mixproxy2
-    name: proxy2.conchbrain.club
+    
+  - id: proxy2
+    name: mixproxy
     url: 'https://proxy2.conchbrain.club/'
     method: GET
     expectStatus: 200
